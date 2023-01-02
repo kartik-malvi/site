@@ -21,7 +21,7 @@
   --body-font: "poppins", sans-serif;
 
   /* .5rem = 8px | 1rem = 16px */
-  --big-font-size: 3.5rem;
+  --big-font-size: 3rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -39,6 +39,7 @@
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
+  --mb-1:1rem;
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
@@ -114,18 +115,19 @@ img {
 .section {
   padding: 6rem 0 2rem;
 }
-.section_title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
-.section-Subtitle{
+.section__Subtitle{
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
-.section_title,
-.section_subtitle{
+.section__title,
+.section__subtitle{
   text-align: center;
+  display: block;
 }
 
 /* LAYOUT */
@@ -165,11 +167,20 @@ img {
   margin-left: var(--mb-1-5);
   margin-right:var(--mb-1-5);
 }
+.button{
+  pad: 1rem 1.75rem;
+}
+.button__icon{
+  width: 22px;
+  height: 22px;
+}
 
 }
 /* For medium devices */
 @media screen and (max-width: 768px){
-
+  .section{
+    padding: 2rem 0 4rem;
+  }
 
 }
 @media screen and (max-width: 576px){
@@ -179,8 +190,12 @@ img {
 /* For  small devices*/
 
 @media screen and (max-width: 350px){
+  :root{
+    --big-font-size:2.25rem;
+  }
   .container{
     margin-left: var(--mb-1);
     margin-right:var(--mb-1);
   }
+  
 }
