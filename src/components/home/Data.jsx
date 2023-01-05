@@ -62,7 +62,7 @@ const Data = () => {
           back-end technologies and I'm Very passionate and dedicated to my
           work.
         </p>
-        <a href="contact" className="button button--flex">
+        <a href="#contact" className="button button--flex">
           {" "}
           Say Hello
           <svg
