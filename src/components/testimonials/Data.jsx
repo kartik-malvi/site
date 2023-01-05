@@ -6,22 +6,22 @@ export const Data = [
     {
         id:1,
         image:Image1,
-        title: "John Doe",
+        title: "Tom H.",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good result.",
+        "The web developer was professional and delivered a top-notch product that exceeded my expectations. I highly recommend them.",
     },
     {
         id:2,
         image:Image2,
-        title: "Caliphso",
+        title: "Emily M.",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good result.",
+        "The web developer was a pleasure to work with and delivered a beautiful, functional website on time and within budget. I'm thrilled with the result.",
     },
     {
         id:1,
         image:Image3,
-        title: "Marry",
+        title: "Sarah W.",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good result.",
+        "The web developer turned my vision into a reality and exceeded my expectations. I would definitely work with them again..",
     },
 ];

@@ -1,8 +1,8 @@
-import Work1 from "../../assets/work1.jpg"
-import Work2 from "../../assets/work2.jpg"
-import Work3 from "../../assets/work3.jpg"
-import Work4 from "../../assets/work4.jpg"
-import Work5 from "../../assets/work5.jpg"
+import Work1 from "../../assets/work1.png"
+import Work2 from "../../assets/work2.png"
+import Work3 from "../../assets/work3.png"
+import Work4 from "../../assets/work4.png"
+import Work5 from "../../assets/work5.png"
 export const projectsData = [
 
     {
@@ -14,19 +14,19 @@ export const projectsData = [
     {
         id:2,
         image:Work2,
-        title:'Thelastresortrecovery',
-        category:'Workpress',
+        title:'Last resort recovery',
+        category:'Wordpress',
     },
     {
         id:3,
         image:Work3,
         title:'Johnson stone work',
-        category:'Development',
+        category:'Wordpress',
     },
     {
         id:4,
         image:Work4,
-        title:'access Vascular Health',
+        title:'Access Vascular Health',
         category:'Wordpress',
     },
    

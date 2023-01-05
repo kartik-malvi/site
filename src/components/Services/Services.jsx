@@ -14,9 +14,9 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-wordpress services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Wordpress <br /> Developer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -36,23 +36,22 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Wordpress Developer</h3>
               <p className="services__modal-description">
-                Services with more than 2 years of experience. Providing quality
-                work to clients and companies.
+              "I have a strong foundation in WordPress development and am able to create custom plugins and themes to meet the unique needs of my clients."
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop the user interface.
+                  Proficiency in PHP, HTML, CSS, and JavaScript for custom plugin and theme development
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web pagr development.</p>
+                  <p className="services__modal-info">Web page development.</p>
                 </li>
 
                 <li className="services__modal-service">
@@ -65,14 +64,14 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                  Knowledge of best practices for security, performance, and SEO
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockup of products for companies.
+                  Experience with plugin and theme debugging and troubleshooting
                   </p>
                 </li>
               </ul>
@@ -106,8 +105,7 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">UX/UI Designer</h3>
               <p className="services__modal-description">
-                Services with more than 2 years of experience. Providing quality
-                work to clients and companies.
+              Skilled UX/UI designer with a focus on creating intuitive, visually stunning designs
               </p>
 
               <ul className="services__modal-services grid">
@@ -120,7 +118,7 @@ const Services = () => {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web pagr development.</p>
+                  <p className="services__modal-info">Web page development.</p>
                 </li>
 
                 <li className="services__modal-service">
@@ -133,14 +131,14 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                  Experience with design principles such as color theory, typography, and layout
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockup of products for companies.
+                  Ability to work collaboratively with cross-functional teams and stakeholders.
                   </p>
                 </li>
               </ul>
@@ -150,9 +148,9 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
+            <i className="uil uil-html5-alt services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Web <br /> Developer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -172,43 +170,42 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Web Developer</h3>
               <p className="services__modal-description">
-                Services with more than 2 years of experience. Providing quality
-                work to clients and companies.
+              "I am a skilled web developer with a strong foundation in various programming languages. I excel at delivering reliable, user-friendly websites and applications."
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop the user interface.
+                  Proficiency in programming languages such as HTML, CSS, JavaScript, and PHP
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web pagr development.</p>
+                  <p className="services__modal-info">Experience with front-end frameworks such as Bootstrap and React.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand.
+                  Knowledge of back-end technologies such as MySQL, PHP, and Node.js
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockup of products for companies.
+                  Strong problem-solving and debugging skills
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                  Experience with web servers and hosting environments
                   </p>
                 </li>
               </ul>

@@ -152,7 +152,7 @@ img {
 .button:hover{
   background-color: var(--title-color-dark);
 }
-.button_icon{
+.button__icon{
   margin-left: var(--mb-0-5);
 }
 .button--flex{
