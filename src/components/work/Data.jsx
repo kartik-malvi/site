@@ -33,7 +33,7 @@ export const projectsData = [
     {
         id:5,
         image:Work5,
-        title:'The Finitellect',
+        title:'The Finintellect',
         category:'Development',
 
     },
