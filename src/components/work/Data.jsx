@@ -4,6 +4,7 @@ import Work3 from "../../assets/work3.png"
 import Work4 from "../../assets/work4.png"
 import Work5 from "../../assets/work5.png"
 import Work6 from "../../assets/work6.png"
+import shopify from "../../assets/shopify.png"
 export const projectsData = [
 
     {
@@ -49,8 +50,16 @@ export const projectsData = [
         title:'William Mills',
         category:'Wordpress',
         link:"https://williammills.uk/it-it/",
+    },
+    {
+        id:7,
+        image:shopify,
+        title:'Direct Electric Bike',
+        category:'Shopify',
+        link:"https://directelectricbikes.com",
     }
 ];
+
 
 export const projectsNav = [
     {
@@ -62,8 +71,8 @@ export const projectsNav = [
     {
         name: 'Development',
     },
-    // {
-    //     name: 'Design',
-    // },
+    {
+        name: 'Shopify',
+    },
    
 ]
